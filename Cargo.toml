@@ -1,0 +1,14 @@
+[package]
+name = "compresseverything"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3.1"
+nanoid = "0.4.0"
+shuttle-actix-web = "0.48.0"
+shuttle-runtime = "0.48.0"
+shuttle-shared-db = { version = "0.48.0", features = ["postgres", "sqlx"] }
+sqlx = "0.8.2"
+tokio = "1.26.0"
+url = "2.5.3"
